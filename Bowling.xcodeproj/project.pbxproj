@@ -15,6 +15,9 @@
 		F043ED9B2116CC1E004030C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F043ED992116CC1E004030C9 /* LaunchScreen.storyboard */; };
 		F043EDA62116CC1E004030C9 /* BowlingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EDA52116CC1E004030C9 /* BowlingTests.swift */; };
 		F043EDB12116CC1E004030C9 /* BowlingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EDB02116CC1E004030C9 /* BowlingUITests.swift */; };
+		F043EDBF2116CD50004030C9 /* AutomaticBowlingScorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EDBE2116CD50004030C9 /* AutomaticBowlingScorer.swift */; };
+		F043EDC12116E9AE004030C9 /* BowlingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EDC02116E9AE004030C9 /* BowlingViewController.swift */; };
+		F043EDC32116E9C4004030C9 /* ScoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EDC22116E9C4004030C9 /* ScoreCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		F043EDAC2116CC1E004030C9 /* BowlingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowlingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F043EDB02116CC1E004030C9 /* BowlingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingUITests.swift; sourceTree = "<group>"; };
 		F043EDB22116CC1E004030C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F043EDBE2116CD50004030C9 /* AutomaticBowlingScorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticBowlingScorer.swift; sourceTree = "<group>"; };
+		F043EDC02116E9AE004030C9 /* BowlingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingViewController.swift; sourceTree = "<group>"; };
+		F043EDC22116E9C4004030C9 /* ScoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				F043ED992116CC1E004030C9 /* LaunchScreen.storyboard */,
 				F043ED9C2116CC1E004030C9 /* Info.plist */,
 				F043ED942116CC1D004030C9 /* Bowling.xcdatamodeld */,
+				F043EDBE2116CD50004030C9 /* AutomaticBowlingScorer.swift */,
+				F043EDC02116E9AE004030C9 /* BowlingViewController.swift */,
+				F043EDC22116E9C4004030C9 /* ScoreCell.swift */,
 			);
 			path = Bowling;
 			sourceTree = "<group>";
@@ -261,7 +270,10 @@
 			files = (
 				F043ED902116CC1D004030C9 /* ViewController.swift in Sources */,
 				F043ED8E2116CC1D004030C9 /* AppDelegate.swift in Sources */,
+				F043EDBF2116CD50004030C9 /* AutomaticBowlingScorer.swift in Sources */,
 				F043ED962116CC1D004030C9 /* Bowling.xcdatamodeld in Sources */,
+				F043EDC32116E9C4004030C9 /* ScoreCell.swift in Sources */,
+				F043EDC12116E9AE004030C9 /* BowlingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
