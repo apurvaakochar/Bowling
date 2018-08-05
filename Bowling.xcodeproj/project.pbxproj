@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F043ED8E2116CC1D004030C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043ED8D2116CC1D004030C9 /* AppDelegate.swift */; };
+		F043ED902116CC1D004030C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043ED8F2116CC1D004030C9 /* ViewController.swift */; };
+		F043ED932116CC1D004030C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F043ED912116CC1D004030C9 /* Main.storyboard */; };
+		F043ED962116CC1D004030C9 /* Bowling.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F043ED942116CC1D004030C9 /* Bowling.xcdatamodeld */; };
+		F043ED982116CC1E004030C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F043ED972116CC1E004030C9 /* Assets.xcassets */; };
+		F043ED9B2116CC1E004030C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F043ED992116CC1E004030C9 /* LaunchScreen.storyboard */; };
+		F043EDA62116CC1E004030C9 /* BowlingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EDA52116CC1E004030C9 /* BowlingTests.swift */; };
+		F043EDB12116CC1E004030C9 /* BowlingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EDB02116CC1E004030C9 /* BowlingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F043EDA22116CC1E004030C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F043ED822116CC1D004030C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F043ED892116CC1D004030C9;
+			remoteInfo = Bowling;
+		};
+		F043EDAD2116CC1E004030C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F043ED822116CC1D004030C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F043ED892116CC1D004030C9;
+			remoteInfo = Bowling;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F043ED8A2116CC1D004030C9 /* Bowling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bowling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F043ED8D2116CC1D004030C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F043ED8F2116CC1D004030C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F043ED922116CC1D004030C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F043ED952116CC1D004030C9 /* Bowling.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bowling.xcdatamodel; sourceTree = "<group>"; };
+		F043ED972116CC1E004030C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F043ED9A2116CC1E004030C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F043ED9C2116CC1E004030C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F043EDA12116CC1E004030C9 /* BowlingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowlingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F043EDA52116CC1E004030C9 /* BowlingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingTests.swift; sourceTree = "<group>"; };
+		F043EDA72116CC1E004030C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F043EDAC2116CC1E004030C9 /* BowlingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowlingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F043EDB02116CC1E004030C9 /* BowlingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingUITests.swift; sourceTree = "<group>"; };
+		F043EDB22116CC1E004030C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F043ED872116CC1D004030C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F043ED9E2116CC1E004030C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F043EDA92116CC1E004030C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F043ED812116CC1D004030C9 = {
+			isa = PBXGroup;
+			children = (
+				F043ED8C2116CC1D004030C9 /* Bowling */,
+				F043EDA42116CC1E004030C9 /* BowlingTests */,
+				F043EDAF2116CC1E004030C9 /* BowlingUITests */,
+				F043ED8B2116CC1D004030C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F043ED8B2116CC1D004030C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F043ED8A2116CC1D004030C9 /* Bowling.app */,
+				F043EDA12116CC1E004030C9 /* BowlingTests.xctest */,
+				F043EDAC2116CC1E004030C9 /* BowlingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F043ED8C2116CC1D004030C9 /* Bowling */ = {
+			isa = PBXGroup;
+			children = (
+				F043ED8D2116CC1D004030C9 /* AppDelegate.swift */,
+				F043ED8F2116CC1D004030C9 /* ViewController.swift */,
+				F043ED912116CC1D004030C9 /* Main.storyboard */,
+				F043ED972116CC1E004030C9 /* Assets.xcassets */,
+				F043ED992116CC1E004030C9 /* LaunchScreen.storyboard */,
+				F043ED9C2116CC1E004030C9 /* Info.plist */,
+				F043ED942116CC1D004030C9 /* Bowling.xcdatamodeld */,
+			);
+			path = Bowling;
+			sourceTree = "<group>";
+		};
+		F043EDA42116CC1E004030C9 /* BowlingTests */ = {
+			isa = PBXGroup;
+			children = (
+				F043EDA52116CC1E004030C9 /* BowlingTests.swift */,
+				F043EDA72116CC1E004030C9 /* Info.plist */,
+			);
+			path = BowlingTests;
+			sourceTree = "<group>";
+		};
+		F043EDAF2116CC1E004030C9 /* BowlingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F043EDB02116CC1E004030C9 /* BowlingUITests.swift */,
+				F043EDB22116CC1E004030C9 /* Info.plist */,
+			);
+			path = BowlingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F043ED892116CC1D004030C9 /* Bowling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F043EDB52116CC1E004030C9 /* Build configuration list for PBXNativeTarget "Bowling" */;
+			buildPhases = (
+				F043ED862116CC1D004030C9 /* Sources */,
+				F043ED872116CC1D004030C9 /* Frameworks */,
+				F043ED882116CC1D004030C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bowling;
+			productName = Bowling;
+			productReference = F043ED8A2116CC1D004030C9 /* Bowling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F043EDA02116CC1E004030C9 /* BowlingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F043EDB82116CC1E004030C9 /* Build configuration list for PBXNativeTarget "BowlingTests" */;
+			buildPhases = (
+				F043ED9D2116CC1E004030C9 /* Sources */,
+				F043ED9E2116CC1E004030C9 /* Frameworks */,
+				F043ED9F2116CC1E004030C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F043EDA32116CC1E004030C9 /* PBXTargetDependency */,
+			);
+			name = BowlingTests;
+			productName = BowlingTests;
+			productReference = F043EDA12116CC1E004030C9 /* BowlingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F043EDAB2116CC1E004030C9 /* BowlingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F043EDBB2116CC1E004030C9 /* Build configuration list for PBXNativeTarget "BowlingUITests" */;
+			buildPhases = (
+				F043EDA82116CC1E004030C9 /* Sources */,
+				F043EDA92116CC1E004030C9 /* Frameworks */,
+				F043EDAA2116CC1E004030C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F043EDAE2116CC1E004030C9 /* PBXTargetDependency */,
+			);
+			name = BowlingUITests;
+			productName = BowlingUITests;
+			productReference = F043EDAC2116CC1E004030C9 /* BowlingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F043ED822116CC1D004030C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Emirates;
+				TargetAttributes = {
+					F043ED892116CC1D004030C9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F043EDA02116CC1E004030C9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F043ED892116CC1D004030C9;
+					};
+					F043EDAB2116CC1E004030C9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F043ED892116CC1D004030C9;
+					};
+				};
+			};
+			buildConfigurationList = F043ED852116CC1D004030C9 /* Build configuration list for PBXProject "Bowling" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F043ED812116CC1D004030C9;
+			productRefGroup = F043ED8B2116CC1D004030C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F043ED892116CC1D004030C9 /* Bowling */,
+				F043EDA02116CC1E004030C9 /* BowlingTests */,
+				F043EDAB2116CC1E004030C9 /* BowlingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F043ED882116CC1D004030C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F043ED9B2116CC1E004030C9 /* LaunchScreen.storyboard in Resources */,
+				F043ED982116CC1E004030C9 /* Assets.xcassets in Resources */,
+				F043ED932116CC1D004030C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F043ED9F2116CC1E004030C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F043EDAA2116CC1E004030C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F043ED862116CC1D004030C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F043ED902116CC1D004030C9 /* ViewController.swift in Sources */,
+				F043ED8E2116CC1D004030C9 /* AppDelegate.swift in Sources */,
+				F043ED962116CC1D004030C9 /* Bowling.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F043ED9D2116CC1E004030C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F043EDA62116CC1E004030C9 /* BowlingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F043EDA82116CC1E004030C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F043EDB12116CC1E004030C9 /* BowlingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F043EDA32116CC1E004030C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F043ED892116CC1D004030C9 /* Bowling */;
+			targetProxy = F043EDA22116CC1E004030C9 /* PBXContainerItemProxy */;
+		};
+		F043EDAE2116CC1E004030C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F043ED892116CC1D004030C9 /* Bowling */;
+			targetProxy = F043EDAD2116CC1E004030C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F043ED912116CC1D004030C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F043ED922116CC1D004030C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F043ED992116CC1E004030C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F043ED9A2116CC1E004030C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F043EDB32116CC1E004030C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F043EDB42116CC1E004030C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F043EDB62116CC1E004030C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CHCHVMHLV9;
+				INFOPLIST_FILE = Bowling/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bowling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F043EDB72116CC1E004030C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CHCHVMHLV9;
+				INFOPLIST_FILE = Bowling/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bowling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F043EDB92116CC1E004030C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CHCHVMHLV9;
+				INFOPLIST_FILE = BowlingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BowlingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bowling.app/Bowling";
+			};
+			name = Debug;
+		};
+		F043EDBA2116CC1E004030C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CHCHVMHLV9;
+				INFOPLIST_FILE = BowlingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BowlingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bowling.app/Bowling";
+			};
+			name = Release;
+		};
+		F043EDBC2116CC1E004030C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CHCHVMHLV9;
+				INFOPLIST_FILE = BowlingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BowlingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bowling;
+			};
+			name = Debug;
+		};
+		F043EDBD2116CC1E004030C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CHCHVMHLV9;
+				INFOPLIST_FILE = BowlingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BowlingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bowling;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F043ED852116CC1D004030C9 /* Build configuration list for PBXProject "Bowling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F043EDB32116CC1E004030C9 /* Debug */,
+				F043EDB42116CC1E004030C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F043EDB52116CC1E004030C9 /* Build configuration list for PBXNativeTarget "Bowling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F043EDB62116CC1E004030C9 /* Debug */,
+				F043EDB72116CC1E004030C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F043EDB82116CC1E004030C9 /* Build configuration list for PBXNativeTarget "BowlingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F043EDB92116CC1E004030C9 /* Debug */,
+				F043EDBA2116CC1E004030C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F043EDBB2116CC1E004030C9 /* Build configuration list for PBXNativeTarget "BowlingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F043EDBC2116CC1E004030C9 /* Debug */,
+				F043EDBD2116CC1E004030C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F043ED942116CC1D004030C9 /* Bowling.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F043ED952116CC1D004030C9 /* Bowling.xcdatamodel */,
+			);
+			currentVersion = F043ED952116CC1D004030C9 /* Bowling.xcdatamodel */;
+			path = Bowling.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F043ED822116CC1D004030C9 /* Project object */;
+}
